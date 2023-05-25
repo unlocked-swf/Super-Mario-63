@@ -24,19 +24,13 @@
             color: white;
             font-size: 24px;
             cursor: pointer;
-            font-family: "Font Awesome"; /* Reemplaza con la fuente de iconos que desees utilizar */
-        }
-
-        #fullscreen-button::before {
-            content: "\f0b2"; /* Reemplaza con el código del icono que desees utilizar */
         }
     </style>
-    <!-- Asegúrate de incluir la fuente de iconos correspondiente -->
 </head>
 <body>
     <h1>Mostrar página web completa</h1>
     <iframe id="webpage-iframe" src="https://unlocked-swf.github.io/GAme-s-swf/lbannana-assets/flash/index.html?swf=supermario63.swf" width="100%" height="600"></iframe>
-    <button id="fullscreen-button" onclick="toggleFullScreen()"></button>
+    <button id="fullscreen-button" onclick="toggleFullScreen()">⛶</button>
 
     <script>
         function toggleFullScreen() {
